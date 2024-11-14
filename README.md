@@ -62,5 +62,3 @@ Games Played,Total Collected,Total Paid Out,Profit
 1320,1320,5203,-3883
 3423,3423,3402,21
 ```
-## Step 4: Separate your code into functions
-
