@@ -12,6 +12,9 @@ def main() -> None:
     baseprize: int = 10
     meganumber: int = 6
     megamultiplyer: int = 10
+    total_colected: int = 0
+    total_payout: int = 0
+    total_profit: int =0
     #genrates random number of plays
     min_plays:int = 1000
     max_plays:int = 5000
@@ -30,11 +33,10 @@ def main() -> None:
             else:
                 payout = baseprize * roll_1
         profit: int = costtoplay - payout
-        # output
-        print(f"Casino collects: ${costtoplay}")
-        print(f"Player rolls: {roll_1}-{roll_2}-{roll_3}")
-        print(f"Casino payout: ${payout}")
-        print(f"Profit: ${profit}")
+ 
+        total_colected += costtoplay
+        total_payout += payout
+        total_profit += profit
 
 if __name__ == "__main__":
     main()
