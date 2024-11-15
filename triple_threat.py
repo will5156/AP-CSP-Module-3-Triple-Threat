@@ -1,7 +1,7 @@
 """
 Triple threat simulation game for AP Computer Science Principles.
 Monarch High School - Boulder Valley School District
-Name - Month Year
+william Goble - November 2024
 """
 
 import random
