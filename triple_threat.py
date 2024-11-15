@@ -8,7 +8,7 @@ import random
 
 def main() -> None:
     #varibles
-    costtoplay: int = 1
+    costtoplay: int = 2
     baseprize: int = 10
     meganumber: int = 6
     megamultiplyer: int = 10
@@ -37,6 +37,9 @@ def main() -> None:
         total_colected += costtoplay
         total_payout += payout
         total_profit += profit
+        #output
+    print("Games Played,Total Collected,Total Paid Out,Profit")
+    print(f"{num_plays},{total_colected},{total_payout},{total_profit}")
 
 if __name__ == "__main__":
     main()
