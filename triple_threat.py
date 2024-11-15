@@ -12,6 +12,7 @@ def main() -> None:
     baseprize: int = 10
     meganumber: int = 6
     megamultiplyer: int = 10
+    #total varible
     total_colected: int = 0
     total_payout: int = 0
     total_profit: int =0
@@ -33,7 +34,7 @@ def main() -> None:
             else:
                 payout = baseprize * roll_1
         profit: int = costtoplay - payout
- 
+        #total adding
         total_colected += costtoplay
         total_payout += payout
         total_profit += profit
